@@ -61,7 +61,7 @@ html {
 body {
 	background: #e3e5e5;
 	overflow-x: hidden;
-	height: 5300px;
+	height: 7500px;
 	line-height: 1.5;
 	color: #000;
 	font-size: 14px;
@@ -229,7 +229,97 @@ nav.next-prev {
 			left: 4200px;
 			top: -120px;
 			}
-/* foreground (ballons/landscape) */
+/* foreground (pedestrians, parked cars, etc.) */
+#parallax-bg6 {
+	z-index: 6;
+	position: fixed;
+	/*left: 50%; /* align left edge with center of viewport */
+	top: 0;
+	/*max-width: 940px;*/
+	margin-left: -470px; /* move left by half element's width */
+	}
+	/* balloon */
+	#bg6-1 {
+		position: absolute;
+		top: 0px;
+		left: 1200px;
+		}
+	#bg6-2 {
+		position: absolute;
+		top: 0px;
+		left: 2400px;
+		}
+	#bg6-3 {
+		position: absolute;
+		top: 0px;
+		left: 4000px;
+		}
+	#bg6-4 {
+		position: absolute;
+		top: 0px;
+		left: 5000px;
+		}
+/* midground (traffic flowing right) */
+#parallax-bg5 {
+	z-index: 5;
+	position: fixed;
+	/*left: 50%; /* align left edge with center of viewport */
+	top: 0;
+	/*max-width: 940px;*/
+	margin-left: -470px; /* move left by half element's width */
+	}
+	/* balloon */
+	#bg5-1 {
+		position: absolute;
+		top: 0px;
+		left: 1200px;
+		}
+	#bg5-2 {
+		position: absolute;
+		top: 0px;
+		left: 2400px;
+		}
+	#bg5-3 {
+		position: absolute;
+		top: 0px;
+		left: 4000px;
+		}
+	#bg5-4 {
+		position: absolute;
+		top: 0px;
+		left: 5000px;
+		}
+/* midground (traffic flowing left) */
+#parallax-bg4 {
+	z-index: 4;
+	position: fixed;
+	/*left: 50%; /* align left edge with center of viewport */
+	top: 0;
+	/*max-width: 940px;*/
+	margin-left: -470px; /* move left by half element's width */
+	}
+	/* balloon */
+	#bg4-1 {
+		position: absolute;
+		top: 0px;
+		left: 1200px;
+		}
+	#bg4-2 {
+		position: absolute;
+		top: 0px;
+		left: 2400px;
+		}
+	#bg4-3 {
+		position: absolute;
+		top: 0px;
+		left: 4000px;
+		}
+	#bg4-4 {
+		position: absolute;
+		top: 0px;
+		left: 5000px;
+		}
+/* background (parked cars) */
 #parallax-bg3 {
 	z-index: 3;
 	position: fixed;
@@ -259,7 +349,7 @@ nav.next-prev {
 		top: 0px;
 		left: 5000px;
 		}
-/* midground (clouds) */
+/* background (building facads and sidewalks) */
 #parallax-bg2 {
 	z-index: 2;
 	position: fixed;
@@ -270,30 +360,30 @@ nav.next-prev {
 	}
 	#bg2-1 {
 		position: absolute;
-		top: 50px;
-		left: 0px;
+		top: 0px;
+		left: -600px;
 		}
 	#bg2-2 {
 		position: absolute;
 		top: 0px;
-		left: 3321px;
+		left: 2050px;
 		}
 	#bg2-3 {
 		position: absolute;
-		top: 543px;
-		left: 3305px;
+		top: 0px;
+		left: 4750px;
 		}
 	#bg2-4 {
 		position: absolute;
-		top: 580px;
+		top: 0px;
 		left: 4000px;
 		}
 	#bg2-5 {
 		position: absolute;
-		top: 200px;
+		top: 0px;
 		left: 4500px;
 		}
-/* background (clouds) */
+/* deep background (side streets) */
 #parallax-bg1 {
 	z-index: 1;
 	position: fixed;

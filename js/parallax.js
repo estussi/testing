@@ -58,9 +58,12 @@ $(document).ready(function() {
 function parallaxScroll(){
 	var scrolled = $(window).scrollTop();
 	$('#content').css('left',(0-(scrolled*.9))+'px');
-	$('#parallax-bg1').css('left',(0-(scrolled*.6))+'px');
-	$('#parallax-bg2').css('left',(0-(scrolled*.9))+'px');
+	$('#parallax-bg1').css('left',(0-(scrolled*.5))+'px');
+	$('#parallax-bg2').css('left',(0-(scrolled*.8))+'px');
 	$('#parallax-bg3').css('left',(0-(scrolled*.9))+'px');
+	$('#parallax-bg4').css('left',(0-(scrolled*-1.5))+'px');
+	$('#parallax-bg5').css('left',(0-(scrolled*2))+'px');
+	$('#parallax-bg6').css('left',(0-(scrolled*1.5))+'px');
 }
 
 /* Set navigation dots to an active state as the user scrolls */
