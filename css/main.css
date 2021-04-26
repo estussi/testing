@@ -61,7 +61,7 @@ html {
 body {
 	background: #e3e5e5;
 	overflow-x: hidden;
-	height: 7500px;
+	height: 9000px;
 	line-height: 1.5;
 	color: #000;
 	font-size: 14px;
@@ -207,7 +207,7 @@ nav.next-prev {
 		#manned-flight {
 			position: absolute;
 			top: 0px;
-			left: 50px;
+			left: 150px;
 			}
 		#frameless-parachute {
 			position: absolute;
@@ -272,7 +272,7 @@ nav.next-prev {
 	#bg5-1 {
 		position: absolute;
 		top: 510px;
-		left: -1200px;
+		left: -800px;
 		}
 	#bg5-2 {
 		position: absolute;
@@ -281,13 +281,13 @@ nav.next-prev {
 		}
 	#bg5-3 {
 		position: absolute;
-		top: 560px;
-		left: -4000px;
+		top: 580px;
+		left: -3600px;
 		}
 	#bg5-4 {
 		position: absolute;
 		top: 500px;
-		left: -5000px;
+		left: -7500px;
 		}
 /* midground (traffic flowing left) */
 #parallax-bg4 {
@@ -302,27 +302,27 @@ nav.next-prev {
 	#bg4-1 {
 		position: absolute;
 		top: 530px;
-		left: 2500px;
+		left: 4000px;
 		}
 	#bg4-2 {
 		position: absolute;
 		top: 510px;
-		left: 4000px;
+		left: 5500px;
 		}
 	#bg4-3 {
 		position: absolute;
 		top: 530px;
-		left: 7000px;
+		left: 8500px;
 		}
 	#bg4-4 {
 		position: absolute;
 		top: 530px;
-		left: 13000px;
+		left: 145000px;
 		}
 	#bg4-5 {
 		position: absolute;
 		top: 480px;
-		left: 10000px;
+		left: 11500px;
 		}	
 /* background (parked cars) */
 #parallax-bg3 {
@@ -337,22 +337,22 @@ nav.next-prev {
 	#bg3-1 {
 		position: absolute;
 		top: 470px;
-		left: 200px;
+		left: 1400px;
 		}
 	#bg3-2 {
 		position: absolute;
 		top: 500px;
-		left: 2400px;
+		left: 4500px;
 		}
 	#bg3-3 {
 		position: absolute;
 		top: 500px;
-		left: 4000px;
+		left: 5500px;
 		}
 	#bg3-4 {
 		position: absolute;
 		top: 470px;
-		left: 5400px;
+		left: 6900px;
 		}
 /* background (building facads and sidewalks) */
 #parallax-bg2 {
@@ -366,27 +366,17 @@ nav.next-prev {
 	#bg2-1 {
 		position: absolute;
 		top: -150px;
-		left: -600px;
+		left: 900px;
 		}
 	#bg2-2 {
 		position: absolute;
 		top: -150px;
-		left: 2050px;
+		left: 3550px;
 		}
 	#bg2-3 {
 		position: absolute;
 		top: -150px;
-		left: 4750px;
-		}
-	#bg2-4 {
-		position: absolute;
-		top: -150px;
-		left: 4000px;
-		}
-	#bg2-5 {
-		position: absolute;
-		top: -150px;
-		left: 4500px;
+		left: 6200px;
 		}
 /* deep background (side streets) */
 #parallax-bg1 {
