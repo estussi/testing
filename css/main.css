@@ -271,22 +271,22 @@ nav.next-prev {
 	/* balloon */
 	#bg5-1 {
 		position: absolute;
-		top: 660px;
+		top: 510px;
 		left: -1200px;
 		}
 	#bg5-2 {
 		position: absolute;
-		top: 640px;
+		top: 490px;
 		left: -2400px;
 		}
 	#bg5-3 {
 		position: absolute;
-		top: 710px;
+		top: 560px;
 		left: -4000px;
 		}
 	#bg5-4 {
 		position: absolute;
-		top: 650px;
+		top: 500px;
 		left: -5000px;
 		}
 /* midground (traffic flowing left) */
@@ -301,27 +301,27 @@ nav.next-prev {
 	/* balloon */
 	#bg4-1 {
 		position: absolute;
-		top: 680px;
+		top: 530px;
 		left: 2500px;
 		}
 	#bg4-2 {
 		position: absolute;
-		top: 660px;
+		top: 510px;
 		left: 4000px;
 		}
 	#bg4-3 {
 		position: absolute;
-		top: 680px;
+		top: 530px;
 		left: 7000px;
 		}
 	#bg4-4 {
 		position: absolute;
-		top: 680px;
+		top: 530px;
 		left: 13000px;
 		}
 	#bg4-5 {
 		position: absolute;
-		top: 630px;
+		top: 480px;
 		left: 10000px;
 		}	
 /* background (parked cars) */
@@ -336,22 +336,22 @@ nav.next-prev {
 	/* balloon */
 	#bg3-1 {
 		position: absolute;
-		top: 620px;
+		top: 470px;
 		left: 200px;
 		}
 	#bg3-2 {
 		position: absolute;
-		top: 650px;
+		top: 500px;
 		left: 2400px;
 		}
 	#bg3-3 {
 		position: absolute;
-		top: 650px;
+		top: 500px;
 		left: 4000px;
 		}
 	#bg3-4 {
 		position: absolute;
-		top: 620px;
+		top: 470px;
 		left: 5400px;
 		}
 /* background (building facads and sidewalks) */
@@ -365,27 +365,27 @@ nav.next-prev {
 	}
 	#bg2-1 {
 		position: absolute;
-		top: 0px;
+		top: -150px;
 		left: -600px;
 		}
 	#bg2-2 {
 		position: absolute;
-		top: 0px;
+		top: -150px;
 		left: 2050px;
 		}
 	#bg2-3 {
 		position: absolute;
-		top: 0px;
+		top: -150px;
 		left: 4750px;
 		}
 	#bg2-4 {
 		position: absolute;
-		top: 0px;
+		top: -150px;
 		left: 4000px;
 		}
 	#bg2-5 {
 		position: absolute;
-		top: 0px;
+		top: -150px;
 		left: 4500px;
 		}
 /* deep background (side streets) */
