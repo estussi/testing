@@ -25,7 +25,7 @@ time, mark, audio, video {
 	padding: 0;
 	border: 0;
 	font-size: 100%;
-	font: inherit;
+	font: ariel;
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
@@ -64,11 +64,11 @@ body {
 	height: 9000px;
 	line-height: 1.5;
 	color: #000;
-	font-size: 14px;
+	font-size: 16px;
 	font-family: Arial,sans-serif;
 }
 h1 {
-	color: #21a97e;
+	color: #606060;
 }
 a, a:link,
 a:active,
@@ -77,7 +77,7 @@ a:visited {
 	-moz-transition: color 0.25s ease-out;
 	-o-transition: color 0.25s ease-out;
 	transition: color 0.25s ease-out;
-	color:#21a97e;
+	color:#606060;
 	outline: none;
 	text-decoration:none;
 	}
@@ -116,7 +116,7 @@ hr {
 	background: #fff;
 	}
 	#branding h1 {
-		width: 940px;
+		width: 1400px;
 		padding: 10px 15px;
 		margin: 0 auto;
 		text-transform: uppercase;
@@ -128,7 +128,7 @@ hr {
 *****************************************************************/
 
 nav#primary {
-	z-index: 5;
+	z-index: 8;
 	position: fixed;
 	top: 50%;
 	right: 16px;
@@ -188,7 +188,7 @@ nav.next-prev {
 
 /* content */
 #content {
-	z-index: 4;
+	z-index: 7;
 	position: fixed;
 	/*max-width: 940px;*/
 	padding: 0 10px;
@@ -196,39 +196,58 @@ nav.next-prev {
 	line-height: 1.7;
 	}
 	#content article {
-		width: 600px;
+		width: 310px;
 		}
-		#manned-flight ,
+		#intro,
+		#about,
 		#frameless-parachute,
 		#english-channel,
 		#about {
 			padding-top: 105px;
 			}
-		#manned-flight {
+		#intro {
 			position: absolute;
-			top: 0px;
-			left: 150px;
+			top: -100px;
+			left: 325px;
+			}
+		#about {
+			position: absolute;
+			left: 325px;
+			top: 350px;
 			}
 		#frameless-parachute {
 			position: absolute;
-			left: 1400px;
+			left: 4170px;
+			top: 410px;
+
 			}
 		#english-channel {
 			position: absolute;
-			left: 2800px;
+			left: 7000px;
+			}
+		#references {
+			position: absolute;
+			left: 9000px;
+			top: 0px;
 			}
 			#content h1 {
 				margin: 0 0 25px 0;
-				font-size: 60px;
-				font-family: Georgia, serif;
+				font-size: 45px;
+				font-family: Ariel, sans-serif;
+				color:#606060;
 				font-weight: normal;
 				line-height: 65px;
 				}
-		#about {
-			position: absolute;
-			left: 4200px;
-			top: -120px;
-			}
+			#content h2 {
+				margin: 0 0 15px 0;
+				font-size: 25px;
+				font-family: Ariel, sans-serif;
+				color:#606060;
+				font-weight: normal;
+				line-height: 35px;
+				}			
+
+		
 /* foreground (pedestrians, parked cars, etc.) */
 #parallax-bg6 {
 	z-index: 6;
@@ -241,13 +260,13 @@ nav.next-prev {
 	/* balloon */
 	#bg6-1 {
 		position: absolute;
-		top: 0px;
-		left: 1200px;
+		top: -50px;
+		left: 650px;
 		}
 	#bg6-2 {
 		position: absolute;
-		top: 0px;
-		left: 2400px;
+		top: 380px;
+		left: 4600px;
 		}
 	#bg6-3 {
 		position: absolute;
@@ -272,7 +291,7 @@ nav.next-prev {
 	#bg5-1 {
 		position: absolute;
 		top: 510px;
-		left: -800px;
+		left: -200px;
 		}
 	#bg5-2 {
 		position: absolute;
