@@ -271,23 +271,23 @@ nav.next-prev {
 	/* balloon */
 	#bg5-1 {
 		position: absolute;
-		top: 0px;
-		left: 1200px;
+		top: 660px;
+		left: -1200px;
 		}
 	#bg5-2 {
 		position: absolute;
-		top: 0px;
-		left: 2400px;
+		top: 640px;
+		left: -2400px;
 		}
 	#bg5-3 {
 		position: absolute;
-		top: 0px;
-		left: 4000px;
+		top: 710px;
+		left: -4000px;
 		}
 	#bg5-4 {
 		position: absolute;
-		top: 0px;
-		left: 5000px;
+		top: 650px;
+		left: -5000px;
 		}
 /* midground (traffic flowing left) */
 #parallax-bg4 {
@@ -301,24 +301,29 @@ nav.next-prev {
 	/* balloon */
 	#bg4-1 {
 		position: absolute;
-		top: 0px;
-		left: 1200px;
+		top: 680px;
+		left: 2500px;
 		}
 	#bg4-2 {
 		position: absolute;
-		top: 0px;
-		left: 2400px;
+		top: 660px;
+		left: 4000px;
 		}
 	#bg4-3 {
 		position: absolute;
-		top: 0px;
-		left: 4000px;
+		top: 680px;
+		left: 7000px;
 		}
 	#bg4-4 {
 		position: absolute;
-		top: 0px;
-		left: 5000px;
+		top: 680px;
+		left: 13000px;
 		}
+	#bg4-5 {
+		position: absolute;
+		top: 630px;
+		left: 10000px;
+		}	
 /* background (parked cars) */
 #parallax-bg3 {
 	z-index: 3;
@@ -336,18 +341,18 @@ nav.next-prev {
 		}
 	#bg3-2 {
 		position: absolute;
-		top: 620px;
+		top: 650px;
 		left: 2400px;
 		}
 	#bg3-3 {
 		position: absolute;
-		top: 620px;
+		top: 650px;
 		left: 4000px;
 		}
 	#bg3-4 {
 		position: absolute;
 		top: 620px;
-		left: 5000px;
+		left: 5400px;
 		}
 /* background (building facads and sidewalks) */
 #parallax-bg2 {
