@@ -77,12 +77,12 @@ a:visited {
 	-moz-transition: color 0.25s ease-out;
 	-o-transition: color 0.25s ease-out;
 	transition: color 0.25s ease-out;
-	color:#606060;
+	color:#E27A5B;
 	outline: none;
 	text-decoration:none;
 	}
 	a:hover { 
-		color:#000;
+		color:#FCDAC3;
 		}
 img { 
 	display:block;
@@ -118,6 +118,7 @@ hr {
 	#branding h1 {
 		width: 1400px;
 		padding: 10px 15px;
+		padding-left: 75px;
 		margin: 0 auto;
 		
 		font-size: 18px;

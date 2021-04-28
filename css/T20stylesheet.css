@@ -28,8 +28,6 @@ padding:24px 16px;
 
 
 
-
-
 /*	1. H E A D E R
 */
 
@@ -38,10 +36,11 @@ padding:24px 16px;
 
 position:relative;
 z-index:2;
+
 }
 
 #header .page_margins{
-background:#e0ecf1
+background:#fff
 } 
 
 
@@ -54,6 +53,7 @@ width:25%;
 height:148px;
 background:url(../img/logo.png) no-repeat 0 0px;
 float:left;
+
 }
 
 #header h2{
@@ -74,6 +74,7 @@ top:32px;
 left:256px;
 line-height:12px;
 font-family:Arial, Helvetica, sans-serif;
+
 }
 
 
@@ -114,13 +115,27 @@ left:256px;
 }
 
 #header h4{
-font-size:24px;
+font-size:18px;
 line-height:24px;
 width:224px;
 position:absolute;
-top:16px;
-left:56px;
+top:12px;
 }
+a, a:link,
+a:active,
+a:visited {
+	-webkit-transition: color 0.25s ease-out;
+	-moz-transition: color 0.25s ease-out;
+	-o-transition: color 0.25s ease-out;
+	transition: color 0.25s ease-out;
+	color:#E27A5B;
+	outline: none;
+	text-decoration:none;
+	}
+	a:hover { 
+		color:#FCDAC3;
+		}
+
 
 
 #service-nav{
@@ -169,7 +184,8 @@ position:relative;
 
 .article_head .page_margins{
 height:272px;
-border-top:#000 00px solid;
+background: #fff;
+border-top:#919191 2px solid;
 padding-bottom:0;
 
 }
@@ -199,6 +215,7 @@ width:75%;
 left:25%;
 top:97px;
 margin-left:16px;
+
 }
 
 .article_head h3{
@@ -210,6 +227,7 @@ top:34px;
 width:75%;
 left:25%;
 margin-left:16px;
+
 }
 
 /*remove Letter-Spacing --> manual kerning*/
@@ -380,7 +398,7 @@ font-size:12px;
 }
 
 .extra{
-background:#e0ecf1;
+background:#e3e5e5;;
 padding:10px 10px 16px 10px;
 clear:both;
 margin-bottom:16px;
