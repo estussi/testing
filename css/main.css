@@ -25,7 +25,7 @@ time, mark, audio, video {
 	padding: 0;
 	border: 0;
 	font-size: 100%;
-	font: ariel;
+	font: helvetica;
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
@@ -65,7 +65,7 @@ body {
 	line-height: 1.5;
 	color: #000;
 	font-size: 16px;
-	font-family: Arial,sans-serif;
+	font-family: helvetica;
 }
 h1 {
 	color: #606060;
@@ -217,7 +217,7 @@ nav.next-prev {
 			}
 		#frameless-parachute {
 			position: absolute;
-			left: 4170px;
+			left: 4370px;
 			top: 410px;
 
 			}
@@ -233,7 +233,7 @@ nav.next-prev {
 			#content h1 {
 				margin: 0 0 25px 0;
 				font-size: 45px;
-				font-family: Ariel, sans-serif;
+				font-family: helvetica;
 				color:#606060;
 				font-weight: normal;
 				line-height: 45px;
@@ -241,7 +241,7 @@ nav.next-prev {
 			#content h2 {
 				margin: 0 0 15px 0;
 				font-size: 25px;
-				font-family: Ariel, sans-serif;
+				font-family: helvetica;
 				color:#606060;
 				font-weight: normal;
 				line-height: 35px;
@@ -266,7 +266,7 @@ nav.next-prev {
 	#bg6-2 {
 		position: absolute;
 		top: 380px;
-		left: 4600px;
+		left: 4800px;
 		}
 	#bg6-3 {
 		position: absolute;
@@ -296,12 +296,12 @@ nav.next-prev {
 	#bg5-2 {
 		position: absolute;
 		top: 490px;
-		left: -2400px;
+		left: -5400px;
 		}
 	#bg5-3 {
 		position: absolute;
 		top: 580px;
-		left: -3600px;
+		left: -3000px;
 		}
 	#bg5-4 {
 		position: absolute;
@@ -321,17 +321,17 @@ nav.next-prev {
 	#bg4-1 {
 		position: absolute;
 		top: 530px;
-		left: 4000px;
+		left: 5500px;
 		}
 	#bg4-2 {
 		position: absolute;
 		top: 510px;
-		left: 5500px;
+		left: 9100px;
 		}
 	#bg4-3 {
 		position: absolute;
 		top: 530px;
-		left: 8500px;
+		left: 9500px;
 		}
 	#bg4-4 {
 		position: absolute;
@@ -356,7 +356,7 @@ nav.next-prev {
 	#bg3-1 {
 		position: absolute;
 		top: 470px;
-		left: 1400px;
+		left: 2350px;
 		}
 	#bg3-2 {
 		position: absolute;
