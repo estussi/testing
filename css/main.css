@@ -428,3 +428,7 @@ nav.next-prev {
 		left: 3050px;
 		}
 
+.frameless-parachute-styles {
+	max-width: 220px;
+	margin-top: -10px;
+}
