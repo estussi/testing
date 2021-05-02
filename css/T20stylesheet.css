@@ -20,7 +20,7 @@ min-width:960px;
 max-width:64em;
 */
 background:#fff ;
-width:1080px;
+width:960px;
 position:relative;
 margin:0px auto;
 padding:24px 16px;
@@ -348,15 +348,15 @@ float:right;
 
 
 p.intro{
-font-size:18px;
-line-height:24px;
+font-size:20px;
+line-height:22px;
 text-align:left;
-margin-bottom:16px;
+margin-bottom:18px;
 }
 
 p{
-font-size:14px;
-line-height:16px;
+font-size:18px;
+line-height:24px;
 }
 
 .page_margins:first-child:first-child:first-letter{
@@ -364,11 +364,11 @@ font-size:22px;
 }
 
 p + p{
-text-indent:16px;
+text-indent:25px;
 }
 
 p + div{
-margin-top:16px;
+margin-top:25px;
 }
 
 
