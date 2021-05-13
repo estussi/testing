@@ -61,7 +61,7 @@ html {
 body {
 	background: #e3e5e5;
 	overflow-x: hidden;
-	height: 9000px;
+	height: 10000px;
 	line-height: 1.5;
 	color: #000;
 	font-size: 16px;
@@ -232,43 +232,43 @@ nav.next-prev {
 			}
 		#placing-order {
 			position: absolute;
-			left: 3000px;
+			left: 3500px;
 			top: 500px;
 
 			}
 		#preparing-food {
 			position: absolute;
-			left: 3500px;
+			left: 4500px;
 			top: 500px;
 			}
 		#waiting {
 			position: absolute;
-			left: 4000px;
+			left: 5500px;
 			top: 500px;
 			}
 		#picking-up-food {
 			position: absolute;
-			left: 4500px;
+			left: 6500px;
 			top: 400px;
 			}
 		#ride {
 			position: absolute;
-			left: 5000px;
+			left: 7500px;
 			top: 500px;
 			}
 		#safety {
 			position: absolute;
-			left: 5500px;
+			left: 8500px;
 			top: 500px;
 			}
 		#customer-interacttion {
 			position: absolute;
-			left: 6000px;
+			left: 9500px;
 			top: 500px;
 			}
 		#food-consumption {
 			position: absolute;
-			left: 6500px;
+			left: 10000px;
 			top: 500px;
 			}
 		#food-waste {
@@ -322,7 +322,7 @@ nav.next-prev {
 	#bg6-3 {
 		position: absolute;
 		top: 380px;
-		left: 4800px;
+		left: 7000px;
 		}
 	#bg6-4 {
 		position: absolute;
@@ -429,6 +429,16 @@ nav.next-prev {
 		position: absolute;
 		top: 470px;
 		left: 6900px;
+		}
+	#bg3-5 {
+		position: absolute;
+		top: 460px;
+		left: 4000px;
+		}
+	#bg3-6 {
+		position: absolute;
+		top: 440px;
+		left: 3600px;
 		}
 	
 /* background (building facads and sidewalks) */
