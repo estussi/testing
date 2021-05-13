@@ -233,18 +233,18 @@ nav.next-prev {
 		#placing-order {
 			position: absolute;
 			left: 3000px;
-			top: 400px;
+			top: 500px;
 
 			}
 		#preparing-food {
 			position: absolute;
 			left: 3500px;
-			top: 400px;
+			top: 500px;
 			}
 		#waiting {
 			position: absolute;
 			left: 4000px;
-			top: 400px;
+			top: 500px;
 			}
 		#picking-up-food {
 			position: absolute;
@@ -254,32 +254,32 @@ nav.next-prev {
 		#ride {
 			position: absolute;
 			left: 5000px;
-			top: 400px;
+			top: 500px;
 			}
 		#safety {
 			position: absolute;
 			left: 5500px;
-			top: 400px;
+			top: 500px;
 			}
 		#customer-interacttion {
 			position: absolute;
 			left: 6000px;
-			top: 400px;
+			top: 500px;
 			}
 		#food-consumption {
 			position: absolute;
 			left: 6500px;
-			top: 400px;
+			top: 500px;
 			}
 		#food-waste {
 			position: absolute;
 			left: 7000px;
-			top: 400px;
+			top: 500px;
 			}
 		#reflections {
 			position: absolute;
 			left: 7500px;
-			top: 400px;
+			top: 500px;
 			}
 			#content h1 {
 				margin: 0 0 25px 0;
