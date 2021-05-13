@@ -142,7 +142,7 @@ function parallaxScroll(){
 function redrawDotNav(){
 	var section1Top =  0;
 	// The top of each section is offset by half the distance to the previous section.
-	var section2Top =  $('#intro').offset().left + 000;
+	var section2Top =  $('#intro').offset().left + 1000;
 	var section3Top =  $('#about').offset().left +3000;
 	var section4Top =  $('#platform-services').offset().left +4000;
 	$('nav#primary a').removeClass('active');
