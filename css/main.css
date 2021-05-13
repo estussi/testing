@@ -201,9 +201,18 @@ nav.next-prev {
 		}
 		#intro,
 		#about,
-		#frameless-parachute,
-		#english-channel,
-		#about {
+		#platform-services,
+		#placing-order,
+		#preparing-food,
+		#waiting,
+		#picking-up-food,
+		#ride,
+		#safety,
+		#customer-interacttion,
+		#food-consumption,
+		#food-waste,
+		#reflections
+		 {
 			padding-top: 105px;
 			}
 		#intro {
@@ -216,20 +225,61 @@ nav.next-prev {
 			left: 325px;
 			top: 350px;
 			}
-		#frameless-parachute {
+		#platform-services {
 			position: absolute;
-			left: 4370px;
-			top: 410px;
+			left: 2550px;
+			top: 400px;
+			}
+		#placing-order {
+			position: absolute;
+			left: 3000px;
+			top: 400px;
 
 			}
-		#english-channel {
+		#preparing-food {
+			position: absolute;
+			left: 3500px;
+			top: 400px;
+			}
+		#waiting {
+			position: absolute;
+			left: 4000px;
+			top: 400px;
+			}
+		#picking-up-food {
+			position: absolute;
+			left: 4500px;
+			top: 400px;
+			}
+		#ride {
+			position: absolute;
+			left: 5000px;
+			top: 400px;
+			}
+		#safety {
+			position: absolute;
+			left: 5500px;
+			top: 400px;
+			}
+		#customer-interacttion {
+			position: absolute;
+			left: 6000px;
+			top: 400px;
+			}
+		#food-consumption {
+			position: absolute;
+			left: 6500px;
+			top: 400px;
+			}
+		#food-waste {
 			position: absolute;
 			left: 7000px;
+			top: 400px;
 			}
-		#references {
+		#reflections {
 			position: absolute;
-			left: 9000px;
-			top: 0px;
+			left: 7500px;
+			top: 400px;
 			}
 			#content h1 {
 				margin: 0 0 25px 0;
@@ -267,12 +317,12 @@ nav.next-prev {
 	#bg6-2 {
 		position: absolute;
 		top: 380px;
-		left: 4800px;
+		left: 2700px;
 		}
 	#bg6-3 {
 		position: absolute;
-		top: 0px;
-		left: 4000px;
+		top: 380px;
+		left: 4800px;
 		}
 	#bg6-4 {
 		position: absolute;

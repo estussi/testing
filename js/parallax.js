@@ -9,7 +9,7 @@ $(document).ready(function() {
     });
     
 	/* Next/prev and primary nav btn click handlers */
-	$('a.manned-flight').click(function(){
+	$('a.intro').click(function(){
     	$('html, body').animate({
     		scrollTop:0
     	}, 1000, function() {
@@ -17,7 +17,7 @@ $(document).ready(function() {
 		});
     	return false;
 	});
-    $('a.frameless-parachute').click(function(){
+    $('a.about').click(function(){
     	$('html, body').animate({
     		scrollTop:1500
     	}, 1000, function() {
@@ -25,7 +25,15 @@ $(document).ready(function() {
 		});
     	return false;
     });
-    $('a.english-channel').click(function(){
+    $('a.platform-services').click(function(){
+    	$('html, body').animate({
+    		scrollTop:2550
+    	}, 1000, function() {
+	    	parallaxScroll(); // Callback is required for iOS
+		});
+    	return false;
+    });
+	$('a.placing-order').click(function(){
     	$('html, body').animate({
     		scrollTop:3000
     	}, 1000, function() {
@@ -33,9 +41,73 @@ $(document).ready(function() {
 		});
     	return false;
     });
-	$('a.about').click(function(){
+    $('a.preparing-food').click(function(){
     	$('html, body').animate({
-    		scrollTop:4600
+    		scrollTop:3500
+    	}, 1000, function() {
+	    	parallaxScroll(); // Callback is required for iOS
+		});
+    	return false;
+    });
+    $('a.waiting').click(function(){
+    	$('html, body').animate({
+    		scrollTop:4000
+    	}, 1000, function() {
+	    	parallaxScroll(); // Callback is required for iOS
+		});
+    	return false;
+    });
+    $('a.picking-up-food').click(function(){
+    	$('html, body').animate({
+    		scrollTop:4500
+    	}, 1000, function() {
+	    	parallaxScroll(); // Callback is required for iOS
+		});
+    	return false;
+    });
+    $('a.ride').click(function(){
+    	$('html, body').animate({
+    		scrollTop:5000
+    	}, 1000, function() {
+	    	parallaxScroll(); // Callback is required for iOS
+		});
+    	return false;
+    });
+    $('a.safety').click(function(){
+    	$('html, body').animate({
+    		scrollTop:5500
+    	}, 1000, function() {
+	    	parallaxScroll(); // Callback is required for iOS
+		});
+    	return false;
+    });
+    $('a.customer-interacttion').click(function(){
+    	$('html, body').animate({
+    		scrollTop:6000
+    	}, 1000, function() {
+	    	parallaxScroll(); // Callback is required for iOS
+		});
+    	return false;
+    });
+    $('a.food-consumption').click(function(){
+    	$('html, body').animate({
+    		scrollTop:6500
+    	}, 1000, function() {
+	    	parallaxScroll(); // Callback is required for iOS
+		});
+    	return false;
+    });
+     $('a.food-waste').click(function(){
+    	$('html, body').animate({
+    		scrollTop:7000
+    	}, 1000, function() {
+	    	parallaxScroll(); // Callback is required for iOS
+		});
+    	return false;
+    });
+      $('a.reflections').click(function(){
+    	$('html, body').animate({
+    		scrollTop:7500
     	}, 1000, function() {
 	    	parallaxScroll(); // Callback is required for iOS
 		});
@@ -70,16 +142,16 @@ function parallaxScroll(){
 function redrawDotNav(){
 	var section1Top =  0;
 	// The top of each section is offset by half the distance to the previous section.
-	var section2Top =  $('#frameless-parachute').offset().left + 1000;
-	var section3Top =  $('#english-channel').offset().left +3000;
-	var section4Top =  $('#about').offset().left +4000;
+	var section2Top =  $('#intro').offset().left + 000;
+	var section3Top =  $('#about').offset().left +3000;
+	var section4Top =  $('#platform-services').offset().left +4000;
 	$('nav#primary a').removeClass('active');
 	if($(document).scrollTop() >= section1Top && $(document).scrollTop() < section2Top){
-		$('nav#primary a.manned-flight').addClass('active');
+		$('nav#primary a.intro').addClass('active');
 	} else if ($(document).scrollTop() >= section2Top && $(document).scrollTop() < section3Top){
-		$('nav#primary a.frameless-parachute').addClass('active');
+		$('nav#primary a.about').addClass('active');
 	} else if ($(document).scrollTop() >= section3Top && $(document).scrollTop() < section4Top){
-		$('nav#primary a.english-channel').addClass('active');
+		$('nav#primary a.latform-services').addClass('active');
 	} else if ($(document).scrollTop() >= section4Top){
 		$('nav#primary a.about').addClass('active');
 	}
