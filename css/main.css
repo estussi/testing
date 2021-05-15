@@ -227,8 +227,8 @@ nav.next-prev {
 			}
 		#platform-services {
 			position: absolute;
-			left: 2550px;
-			top: 400px;
+			left: 2350px;
+			top: 250px;
 			}
 		#placing-order {
 			position: absolute;
@@ -243,8 +243,8 @@ nav.next-prev {
 			}
 		#waiting {
 			position: absolute;
-			left: 5500px;
-			top: 500px;
+			left: 5780px;
+			top: 350px;
 			}
 		#picking-up-food {
 			position: absolute;
@@ -273,12 +273,12 @@ nav.next-prev {
 			}
 		#food-waste {
 			position: absolute;
-			left: 10500px;
+			left: 11000px;
 			top: 200px;
 			}
 		#reflections {
 			position: absolute;
-			left: 11300px;
+			left: 12000px;
 			top: 500px;
 			}
 			#content h1 {
@@ -308,31 +308,56 @@ nav.next-prev {
 	/*max-width: 940px;*/
 	margin-left: -470px; /* move left by half element's width */
 	}
-	/* balloon */
+	/* Parallax foreground (pedestrians, parked cars, etc. */
 	#bg6-1 {
 		position: absolute;
 		top: -50px;
 		left: 650px;
 		}
-	#bg6-2 {
+	#bg6-6 {
 		position: absolute;
-		top: 380px;
+		top: 320px;
 		left: 2700px;
+		}
+	#bg6-7 {
+		position: absolute;
+		top: 320px;
+		left: 6000px;
 		}
 	#bg6-3 {
 		position: absolute;
-		top: 380px;
+		top: 520px;
 		left: 7000px;
 		}
-	#bg6-4 {
+	#bg6-8 {
 		position: absolute;
-		top: 0px;
-		left: 5000px;
+		top: 590px;
+		left: 9000px;
+		}
+	#bg6-9 {
+		position: absolute;
+		top: 590px;
+		left: 9550px;
+		}
+	#bg6-2 {
+		position: absolute;
+		top: 380px;
+		left: 3700px;
+		}
+	#bg6-10 {
+		position: absolute;
+		top: 450px;
+		left: 10200px;
+		}
+	#bg6-11 {
+		position: absolute;
+		top: 430px;
+		left: 10600px;
 		}
 	#bg6-5 {
 		position: absolute;
 		top: 100px;
-		left: 10500px;
+		left: 11000px;
 		}
 /* midground (traffic flowing right) */
 #parallax-bg5 {
@@ -352,7 +377,7 @@ nav.next-prev {
 	#bg5-2 {
 		position: absolute;
 		top: 490px;
-		left: -5400px;
+		left: -10500px;
 		}
 	#bg5-3 {
 		position: absolute;
@@ -467,8 +492,8 @@ nav.next-prev {
 		}
 	#bg2-4 {
 		position: absolute;
-		top: 340px;
-		left: 5050px;
+		top: 330px;
+		left: 2825px;
 		}
 /* deep background (side streets) */
 #parallax-bg1 {
