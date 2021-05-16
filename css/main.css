@@ -188,6 +188,36 @@ nav.next-prev {
 *****************************************************************/
 
 /* content */
+#ride
+{
+	z-index: 5;
+	position: fixed;
+	/*max-width: 940px;*/
+	padding: 0 10px;
+	/*margin: 0 auto;*/
+	line-height: 1.7;
+	}
+	#ride article {
+		width: 310px;
+		}
+		#theride
+		 {
+			padding-top: 105px;
+			}
+		#theride {
+			position: absolute;
+			left: -13900px;
+			top: 250px;
+			}
+			#ride h2 {
+				margin: 0 0 15px 0;
+				font-size: 25px;
+				font-family: helvetica;
+				color:#606060;
+				font-weight: normal;
+				line-height: 35px;
+				}
+
 #pizza
 {
 	z-index: 3;
@@ -200,7 +230,9 @@ nav.next-prev {
 	#pizza article {
 		width: 310px;
 		}
-		#pizzapizza
+		#pizzapizza,
+		#pizzapickup,
+		#pizzaconsume
 		 {
 			padding-top: 105px;
 			}
@@ -212,12 +244,12 @@ nav.next-prev {
 		#pizzapickup {
 			position: absolute;
 			left: 5750px;
-			top: 600px;
+			top: 500px;
 			}
 		#pizzaconsume {
 			position: absolute;
 			left: 8700px;
-			top: 250px;
+			top: 200px;
 			}	
 			#pizza h2 {
 				margin: 0 0 15px 0;
@@ -244,13 +276,9 @@ nav.next-prev {
 		#about,
 		#platform-services,
 		#placing-order,
-		#preparing-food,
 		#waiting,
-		#picking-up-food,
-		#ride,
 		#safety,
 		#customer-interacttion,
-		#food-consumption,
 		#food-waste,
 		#reflections
 		 {
@@ -298,14 +326,14 @@ nav.next-prev {
 			left: 8500px;
 			top: 400px;
 			}
-		*/
-
-
 		#ride {
 			position: absolute;
 			left: 9550px;
 			top: 300px;
 			}
+		*/
+
+
 		#safety {
 			position: absolute;
 			left: 11130px;
