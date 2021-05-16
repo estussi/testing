@@ -61,7 +61,7 @@ html {
 body {
 	background: #e3e5e5;
 	overflow-x: hidden;
-	height: 13000px;
+	height: 15000px;
 	line-height: 1.5;
 	color: #000;
 	font-size: 16px;
@@ -232,7 +232,8 @@ nav.next-prev {
 		}
 		#pizzapizza,
 		#pizzapickup,
-		#pizzaconsume
+		#pizzaconsume,
+		#pizza-interacttion
 		 {
 			padding-top: 105px;
 			}
@@ -248,9 +249,14 @@ nav.next-prev {
 			}
 		#pizzaconsume {
 			position: absolute;
-			left: 8700px;
+			left: 9900px;
 			top: 200px;
-			}	
+			}
+		#pizza-interacttion {
+			position: absolute;
+			left: 8650px;
+			top: 360px;
+			}
 			#pizza h2 {
 				margin: 0 0 15px 0;
 				font-size: 25px;
@@ -303,65 +309,26 @@ nav.next-prev {
 			position: absolute;
 			left: 4200px;
 			top: 500px;
-
 			}
-
-		/*	
-		#preparing-food {
-			position: absolute;
-			left: 5200px;
-			top: 500px;
-			}
-		*/
-
 		#waiting {
 			position: absolute;
 			left: 6770px;
 			top: 350px;
 			}
-
-		/*		
-		#picking-up-food {
-			position: absolute;
-			left: 8500px;
-			top: 400px;
-			}
-		#ride {
-			position: absolute;
-			left: 9550px;
-			top: 300px;
-			}
-		*/
-
-
 		#safety {
 			position: absolute;
 			left: 11130px;
 			top: 350px;
 			}
-		#customer-interacttion {
-			position: absolute;
-			left: 12000px;
-			top: 230px;
-			}
-		
-		/*
-		#food-consumption {
-			position: absolute;
-			left: 13200px;
-			top: 200px;
-			}
-		*/
-
 
 		#food-waste {
 			position: absolute;
-			left: 14500px;
+			left: 16700px;
 			top: 200px;
 			}
 		#reflections {
 			position: absolute;
-			left: 15800px;
+			left: 18300px;
 			top: 500px;
 			}
 			#content h1 {
@@ -407,49 +374,26 @@ nav.next-prev {
 		top: 380px;
 		left: 4400px;
 		}
-	
-			/*			Preparing Food
-			#bg6-? {   
-				position: absolute;
-				top: 380px;
-				left: 5000px;
-				}
-			*/
-
 	#bg6-7 { /* Waiting */
 		position: absolute;
 		top: 350px;
 		left: 6900px;
 		}
-
-
-			/* 			The Ride
-			#bg6-? {   
-				position: absolute;
-				top: 380px;
-				left: 8000px;
-				}
-			*/
-
 	#bg6-8 { /* Safety */
 		position: absolute;
 		top: 590px;
 		left: 11500px;
 		}
-	#bg6-9 { /* Customer Interaction */
-		position: absolute;
-		top: 450px;
-		left: 12400px;
-		}	
+		
 	#bg6-5 { /* Food Waste */
 		position: absolute;
 		top: 100px;
-		left: 14500px;
+		left: 16800px;
 		}	
 	#bg6-15 { /* Reflections */
 		position: absolute;
 		top: 300px;
-		left: 16200px;
+		left: 18700px;
 		}
 
 /* midground (traffic flowing right) */
@@ -482,10 +426,10 @@ nav.next-prev {
 		top: 500px;
 		left: -7500px;
 		}
-	#bg5-5 {
+	#bg5-5 { /* flying drone */
 		position: absolute;
-		top: 150px;
-		left: -22000px;
+		top: 100px;
+		left: -26000px;
 		}
 
 /* midground (traffic flowing left) */
@@ -526,7 +470,7 @@ nav.next-prev {
 	#bg4-6 { /* Reflections */
 		position: absolute;
 		top: 500px;
-		left: 24400px;
+		left: 28600px;
 		}
 
 /* background (parked cars) */
@@ -579,15 +523,15 @@ nav.next-prev {
 		top: 440px;
 		left: 4300px;
 		}
-	#bg3-9 { /* Reflections */
-		position: absolute;
-		top: 460px;
-		left: 10530px;
-		}
 	#bg3-10 { /* Food Consumption */
 		position: absolute;
-		top: 430px;
-		left: 9000px;
+		top: 500px;
+		left: 10200px;
+		}
+	#bg3-11 { /* Customer Interaction */
+		position: absolute;
+		top: 680px;
+		left: 8950px;
 		}
 	
 /* background (building facads and sidewalks) */
@@ -612,12 +556,17 @@ nav.next-prev {
 	#bg2-4 { /* Pizzeria */
 		position: absolute;
 		top: 340px;
-		left: 3495px;
+		left: 3525px;
 		}
 	#bg2-3 { /* Food Consumption */
 		position: absolute;
-		top: 420px;
-		left: 8450px;
+		top: 500px;
+		left: 9550px;
+		}
+	#bg2-5 {
+		position: absolute;
+		top: -525px;
+		left: 6250px;
 		}
 /* deep background (side streets) */
 #parallax-bg1 {
