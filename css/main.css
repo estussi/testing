@@ -61,7 +61,7 @@ html {
 body {
 	background: #e3e5e5;
 	overflow-x: hidden;
-	height: 10000px;
+	height: 12000px;
 	line-height: 1.5;
 	color: #000;
 	font-size: 16px;
@@ -258,27 +258,27 @@ nav.next-prev {
 			}
 		#safety {
 			position: absolute;
-			left: 8500px;
+			left: 10000px;
 			top: 500px;
 			}
 		#customer-interacttion {
 			position: absolute;
-			left: 9500px;
+			left: 10500px;
 			top: 500px;
 			}
 		#food-consumption {
 			position: absolute;
-			left: 10000px;
+			left: 11500px;
 			top: 500px;
 			}
 		#food-waste {
 			position: absolute;
-			left: 11000px;
+			left: 13000px;
 			top: 200px;
 			}
 		#reflections {
 			position: absolute;
-			left: 12000px;
+			left: 14500px;
 			top: 500px;
 			}
 			#content h1 {
@@ -338,11 +338,7 @@ nav.next-prev {
 		top: 350px;
 		left: 6900px;
 		}
-	#bg6-3 { /* Picking up Food */
-		position: absolute;
-		top: 520px;
-		left: 9000px;
-		}
+
 
 			/* 			The Ride
 			#bg6-? {   
@@ -355,47 +351,47 @@ nav.next-prev {
 	#bg6-8 { /* Safety */
 		position: absolute;
 		top: 590px;
-		left: 9000px;
+		left: 10500px;
 		}
 	#bg6-9 { /* Customer Interaction */
 		position: absolute;
 		top: 590px;
-		left: 9550px;
+		left: 11050px;
 		}
 	#bg6-10 { /* Food Consumption */
 		position: absolute;
 		top: 450px;
-		left: 10200px;
+		left: 11800px;
 		}
 	#bg6-11 { /* Food Consumption */
 		position: absolute;
 		top: 430px;
-		left: 10600px;
+		left: 12000px;
 		}
 	#bg6-5 { /* Food Waste */
 		position: absolute;
 		top: 100px;
-		left: 11000px;
+		left: 13000px;
 		}
 	#bg6-12 { /* Reflections */
 		position: absolute;
 		top: 100px;
-		left: 12000px;
+		left: 14500px;
 		}
 	#bg6-13 { /* Reflections */
 		position: absolute;
 		top: 300px;
-		left: 12250px;
+		left: 14650px;
 		}
 	#bg6-14 { /* Reflections */
 		position: absolute;
 		top: 300px;
-		left: 12050px;
+		left: 14500px;
 		}
 	#bg6-15 { /* Reflections */
 		position: absolute;
 		top: 300px;
-		left: 12450px;
+		left: 14900px;
 		}
 
 /* midground (traffic flowing right) */
@@ -483,17 +479,27 @@ nav.next-prev {
 	#bg3-2 {
 		position: absolute;
 		top: 500px;
-		left: 4500px;
+		left: 1400px;
 		}
 	#bg3-3 {
 		position: absolute;
 		top: 500px;
-		left: 5600px;
+		left: 5300px;
 		}
 	#bg3-4 {
 		position: absolute;
 		top: 470px;
 		left: 6900px;
+		}
+	#bg3-7 { /* picking up food */
+		position: absolute;
+		top: 450px;
+		left: 5960px;
+		}
+	#bg3-8 { /* picking up food */
+		position: absolute;
+		top: 510px;
+		left: 6120px;
 		}
 	#bg3-5 {
 		position: absolute;
