@@ -248,13 +248,13 @@ nav.next-prev {
 			}
 		#picking-up-food {
 			position: absolute;
-			left: 7500px;
+			left: 8500px;
 			top: 400px;
 			}
 		#ride {
 			position: absolute;
-			left: 7500px;
-			top: 500px;
+			left: 9550px;
+			top: 300px;
 			}
 		#safety {
 			position: absolute;
@@ -316,7 +316,7 @@ nav.next-prev {
 		}
 	#bg6-6 { /* Platform Services */
 		position: absolute;
-		top: 320px;
+		top: 370px;
 		left: 2700px;
 		}
 	#bg6-2 { /* Placing Order */
@@ -341,7 +341,7 @@ nav.next-prev {
 	#bg6-3 { /* Picking up Food */
 		position: absolute;
 		top: 520px;
-		left: 7000px;
+		left: 9000px;
 		}
 
 			/* 			The Ride
@@ -416,7 +416,7 @@ nav.next-prev {
 	#bg5-2 {
 		position: absolute;
 		top: 490px;
-		left: -10500px;
+		left: -13500px;
 		}
 	#bg5-3 {
 		position: absolute;
@@ -532,8 +532,8 @@ nav.next-prev {
 		}
 	#bg2-4 { /* Pizzeria */
 		position: absolute;
-		top: 360px;
-		left: 3535px;
+		top: 340px;
+		left: 3495px;
 		}
 /* deep background (side streets) */
 #parallax-bg1 {
