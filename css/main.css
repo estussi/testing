@@ -387,7 +387,7 @@ nav.next-prev {
 		
 	#bg6-5 { /* Food Waste */
 		position: absolute;
-		top: 100px;
+		top: 280px;
 		left: 16800px;
 		}	
 	#bg6-15 { /* Reflections */
@@ -579,22 +579,7 @@ nav.next-prev {
 	}
 	#bg1-1 {
 		position: absolute;
-		top: 400px;
-		left: 500px;
-		}
-	#bg1-2 {
-		position: absolute;
-		top: 400px;
-		left: 1300px;
-		}
-	#bg1-3 {
-		position: absolute;
-		top: 900px;
-		left: 2220px;
-		}
-	#bg1-4 {
-		position: absolute;
-		top: 1020px;
-		left: 3050px;
+		top: -125px;
+		left: 5200px;
 		}
 
