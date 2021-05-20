@@ -239,7 +239,7 @@ nav.next-prev {
 			}
 		#pizzapizza {
 			position: absolute;
-			left: 3700px;
+			left: 3000px;
 			top: 300px;
 			}
 		#pizzapickup {
@@ -280,7 +280,6 @@ nav.next-prev {
 		}
 		#intro,
 		#about,
-		#platform-services,
 		#placing-order,
 		#waiting,
 		#safety,
@@ -300,14 +299,9 @@ nav.next-prev {
 			left: 325px;
 			top: 350px;
 			}
-		#platform-services {
-			position: absolute;
-			left: 2350px;
-			top: 250px;
-			}
 		#placing-order {
 			position: absolute;
-			left: 4200px;
+			left: 2800px;
 			top: 500px;
 			}
 		#waiting {
@@ -364,15 +358,10 @@ nav.next-prev {
 		top: -50px;
 		left: 650px;
 		}
-	#bg6-6 { /* Platform Services */
-		position: absolute;
-		top: 370px;
-		left: 2700px;
-		}
 	#bg6-2 { /* Placing Order */
 		position: absolute;
 		top: 380px;
-		left: 4400px;
+		left: 3000px;
 		}
 	#bg6-7 { /* Waiting */
 		position: absolute;
@@ -556,7 +545,7 @@ nav.next-prev {
 	#bg2-4 { /* Pizzeria */
 		position: absolute;
 		top: 340px;
-		left: 3525px;
+		left: 2825px;
 		}
 	#bg2-3 { /* Food Consumption */
 		position: absolute;
