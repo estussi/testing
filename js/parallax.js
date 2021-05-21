@@ -130,6 +130,7 @@ $(document).ready(function() {
 function parallaxScroll(){
 	var scrolled = $(window).scrollTop();
 	$('#content').css('left',(0-(scrolled*1.25))+'px');
+	$('#getfucked').css('left',(0-(scrolled*1.25))+'px');
     $('#pizza').css('left',(0-(scrolled*.8))+'px');
     $('#ride').css('left',(0-(scrolled*-2))+'px');    
 	$('#parallax-bg1').css('left',(0-(scrolled*.5))+'px');

@@ -63,7 +63,7 @@ body {
 	overflow-x: hidden;
 	height: 15000px;
 	line-height: 1.5;
-	color: #000;
+	color: #606060;
 	font-size: 16px;
 	font-family: helvetica;
 }
@@ -184,8 +184,31 @@ nav.next-prev {
 			background: transparent url('../img/scroll-arrow-down.png') -1px -11px no-repeat;
 			}
 
+
+
 /* Parallax
 *****************************************************************/
+#getfucked {
+	z-index: 9;
+	position: fixed;
+	top: 0;
+	margin-left: -470px; /* move left by half element's width */
+	}	
+
+	#fuckyou {
+    background-image: url("../img/storyboard/traces.png");  
+		position: absolute;
+		top: 575px;
+		left: 3290px;
+		width: 129px;
+		height: 50px;
+		display: block;
+		}
+	#fuckyou:hover {
+		background-image: url("../img/storyboard/traces3.png");
+	 }
+
+
 
 /* content */
 #ride
@@ -290,7 +313,7 @@ nav.next-prev {
 		 {
 			padding-top: 105px;
 			}
-		#intro {
+			#intro {
 			position: absolute;
 			top: -100px;
 			left: 325px;
@@ -307,8 +330,8 @@ nav.next-prev {
 			}
 		#placing-order {
 			position: absolute;
-			left: 2800px;
-			top: 500px;
+			left: 2810px;
+			top: 370px;
 			}
 		#waiting {
 			position: absolute;
@@ -364,6 +387,14 @@ nav.next-prev {
 		top: -50px;
 		left: 650px;
 		}
+	
+
+
+
+
+
+
+
 	#bg6-2 { /* Placing Order */
 		position: absolute;
 		top: 380px;
