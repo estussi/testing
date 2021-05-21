@@ -280,6 +280,7 @@ nav.next-prev {
 		}
 		#intro,
 		#about,
+		#platform-services,
 		#placing-order,
 		#waiting,
 		#safety,
@@ -298,6 +299,11 @@ nav.next-prev {
 			position: absolute;
 			left: 325px;
 			top: 350px;
+			}
+		#platform-services {
+			position: absolute;
+			left: 970px;
+			top: 475px;
 			}
 		#placing-order {
 			position: absolute;
@@ -362,6 +368,11 @@ nav.next-prev {
 		position: absolute;
 		top: 380px;
 		left: 3000px;
+		}
+	#bg6-3 { /* Platform Services */
+		position: absolute;
+		top: 640px;
+		left: 1350px;
 		}
 	#bg6-7 { /* Waiting */
 		position: absolute;
