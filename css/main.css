@@ -241,45 +241,66 @@ nav.next-prev {
 				line-height: 35px;
 				}
 
-#pizza
-{
+#pizza {
 	z-index: 3;
 	position: fixed;
-	/*max-width: 940px;*/
-	padding: 0 10px;
-	/*margin: 0 auto;*/
-	line-height: 1.7;
-	}
-	#pizza article {
-		width: 310px;
-		}
-		#pizzapizza,
-		#pizzapickup,
-		#pizzaconsume,
-		#pizza-interacttion
-		 {
-			padding-top: 105px;
-			}
+	top: 0;
+	margin-left: 0px;
+	} 
+
 		#pizzapizza {
+			background-image: url("../img/storyboard/traces.png");  
 			position: absolute;
-			left: 3000px;
-			top: 300px;
+			top: 487px;
+			left: 3030px;
+			width: 129px;
+			height: 50px;
+			display: block;
 			}
+		#pizzapizza:hover {
+			background-image: url("../img/storyboard/traces3.png");
+	 		}
+		
 		#pizzapickup {
+			background-image: url("../img/storyboard/traces.png");  
 			position: absolute;
-			left: 5750px;
-			top: 500px;
+			left: 5760px;
+			top: 390px;
+			width: 129px;
+			height: 50px;
+			display: block;
 			}
+		#pizzapickup:hover {
+			background-image: url("../img/storyboard/traces3.png");
+	 		}
+		
 		#pizzaconsume {
+			background-image: url("../img/storyboard/traces.png");  
 			position: absolute;
-			left: 9900px;
-			top: 200px;
+			left: 10000px;
+			top: 430px;
+			width: 129px;
+			height: 50px;
+			display: block;
 			}
+		#pizzaconsume:hover {
+			background-image: url("../img/storyboard/traces3.png");
+	 		}
+		
 		#pizza-interacttion {
+			background-image: url("../img/storyboard/traces.png");  
 			position: absolute;
-			left: 8650px;
-			top: 360px;
+			left: 8580px;
+			top: 625px;
+			width: 129px;
+			height: 50px;
+			display: block;
 			}
+		#pizza-interacttion:hover {
+			background-image: url("../img/storyboard/traces3.png");
+	 		}
+			
+			/*
 			#pizza h2 {
 				margin: 0 0 15px 0;
 				font-size: 25px;
@@ -288,6 +309,7 @@ nav.next-prev {
 				font-weight: normal;
 				line-height: 35px;
 				}
+			*/
 
 
 #content {
@@ -592,7 +614,7 @@ nav.next-prev {
 	#bg2-3 { /* Food Consumption */
 		position: absolute;
 		top: 500px;
-		left: 9550px;
+		left: 9580px;
 		}
 	#bg2-5 {
 		position: absolute;
