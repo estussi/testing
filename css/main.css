@@ -211,35 +211,26 @@ nav.next-prev {
 
 
 /* content */
-#ride
-{
+#ride {
 	z-index: 5;
 	position: fixed;
-	/*max-width: 940px;*/
-	padding: 0 10px;
-	/*margin: 0 auto;*/
-	line-height: 1.7;
-	}
-	#ride article {
-		width: 310px;
-		}
-		#theride
-		 {
-			padding-top: 105px;
-			}
+	top: 0;
+	margin-left: 0px;
+	} 
+	
 		#theride {
+			background-image: url("../img/storyboard/traces.png");
 			position: absolute;
 			left: -13900px;
-			top: 250px;
+			top: 440px;
+			width: 129px;
+			height: 50px;
+			display: block;
 			}
-			#ride h2 {
-				margin: 0 0 15px 0;
-				font-size: 25px;
-				font-family: helvetica;
-				color:#606060;
-				font-weight: normal;
-				line-height: 35px;
-				}
+		#theride:hover {
+			background-image: url("../img/storyboard/traces3.png");
+	 		}
+			
 
 #pizza {
 	z-index: 3;
@@ -409,14 +400,6 @@ nav.next-prev {
 		top: -50px;
 		left: 650px;
 		}
-	
-
-
-
-
-
-
-
 	#bg6-2 { /* Placing Order */
 		position: absolute;
 		top: 380px;
@@ -432,17 +415,58 @@ nav.next-prev {
 		top: 350px;
 		left: 6900px;
 		}
+
+		#bg6-72 {
+			background-image: url("../img/storyboard/traces.png");  
+			position: absolute;
+			top: 505px;
+			left: 7215px;
+			width: 129px;
+			height: 50px;
+			display: block;
+			}
+		#bg6-72:hover {
+			background-image: url("../img/storyboard/traces3.png");
+	 		}
+
 	#bg6-8 { /* Safety */
 		position: absolute;
 		top: 590px;
 		left: 11700px;
 		}
+
+		#bg6-82 {
+			background-image: url("../img/storyboard/traces.png");  
+			position: absolute;
+			top: 590px;
+			left: 11750px;
+			width: 129px;
+			height: 50px;
+			display: block;
+			}
+		#bg6-82:hover {
+			background-image: url("../img/storyboard/traces3.png");
+	 		}
 		
 	#bg6-5 { /* Food Waste */
 		position: absolute;
 		top: 280px;
 		left: 16800px;
 		}	
+
+		#bg6-52 {
+			background-image: url("../img/storyboard/traces.png");  
+			position: absolute;
+			top: 500px;
+			left: 17170px;
+			width: 129px;
+			height: 50px;
+			display: block;
+			}
+		#bg6-52:hover {
+			background-image: url("../img/storyboard/traces3.png");
+	 		}
+
 	#bg6-15 { /* Reflections */
 		position: absolute;
 		top: 300px;
