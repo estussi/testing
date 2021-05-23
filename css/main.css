@@ -203,6 +203,7 @@ nav.next-prev {
 		width: 129px;
 		height: 50px;
 		display: block;
+		transition: 0.25s;
 		}
 	#fuckyou:hover {
 		background-image: url("../img/storyboard/traces3.png");
@@ -226,6 +227,7 @@ nav.next-prev {
 			width: 129px;
 			height: 50px;
 			display: block;
+			transition: 0.25s;
 			}
 		#theride:hover {
 			background-image: url("../img/storyboard/traces3.png");
@@ -247,6 +249,7 @@ nav.next-prev {
 			width: 129px;
 			height: 50px;
 			display: block;
+			transition: 0.25s;
 			}
 		#pizzapizza:hover {
 			background-image: url("../img/storyboard/traces3.png");
@@ -260,6 +263,7 @@ nav.next-prev {
 			width: 129px;
 			height: 50px;
 			display: block;
+			transition: 0.25s;
 			}
 		#pizzapickup:hover {
 			background-image: url("../img/storyboard/traces3.png");
@@ -273,6 +277,7 @@ nav.next-prev {
 			width: 129px;
 			height: 50px;
 			display: block;
+			transition: 0.25s;
 			}
 		#pizzaconsume:hover {
 			background-image: url("../img/storyboard/traces3.png");
@@ -286,6 +291,7 @@ nav.next-prev {
 			width: 129px;
 			height: 50px;
 			display: block;
+			transition: 0.25s;
 			}
 		#pizza-interacttion:hover {
 			background-image: url("../img/storyboard/traces3.png");
@@ -424,6 +430,7 @@ nav.next-prev {
 			width: 129px;
 			height: 50px;
 			display: block;
+			transition: 0.25s;
 			}
 		#bg6-72:hover {
 			background-image: url("../img/storyboard/traces3.png");
@@ -443,6 +450,7 @@ nav.next-prev {
 			width: 129px;
 			height: 50px;
 			display: block;
+			transition: 0.25s;
 			}
 		#bg6-82:hover {
 			background-image: url("../img/storyboard/traces3.png");
@@ -462,6 +470,7 @@ nav.next-prev {
 			width: 129px;
 			height: 50px;
 			display: block;
+			transition: 0.25s;
 			}
 		#bg6-52:hover {
 			background-image: url("../img/storyboard/traces3.png");
