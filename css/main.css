@@ -206,7 +206,7 @@ nav.next-prev {
 		transition: 0.25s;
 		}
 	#fuckyou:hover {
-		background-image: url("../img/storyboard/traces3.png");
+		background-image: url("../img/storyboard/03traces.png");
 	 }
 
 
@@ -230,7 +230,7 @@ nav.next-prev {
 			transition: 0.25s;
 			}
 		#theride:hover {
-			background-image: url("../img/storyboard/traces3.png");
+			background-image: url("../img/storyboard/07traces.png");
 	 		}
 			
 
@@ -244,7 +244,7 @@ nav.next-prev {
 		#pizzapizza {
 			background-image: url("../img/storyboard/traces.png");  
 			position: absolute;
-			top: 487px;
+			top: 470px;
 			left: 3030px;
 			width: 129px;
 			height: 50px;
@@ -252,21 +252,21 @@ nav.next-prev {
 			transition: 0.25s;
 			}
 		#pizzapizza:hover {
-			background-image: url("../img/storyboard/traces3.png");
+			background-image: url("../img/storyboard/04traces.png");
 	 		}
 		
 		#pizzapickup {
 			background-image: url("../img/storyboard/traces.png");  
 			position: absolute;
-			left: 5760px;
-			top: 390px;
+			left: 5870px;
+			top: 420px;
 			width: 129px;
 			height: 50px;
 			display: block;
 			transition: 0.25s;
 			}
 		#pizzapickup:hover {
-			background-image: url("../img/storyboard/traces3.png");
+			background-image: url("../img/storyboard/06traces.png");
 	 		}
 		
 		#pizzaconsume {
@@ -280,21 +280,21 @@ nav.next-prev {
 			transition: 0.25s;
 			}
 		#pizzaconsume:hover {
-			background-image: url("../img/storyboard/traces3.png");
+			background-image: url("../img/storyboard/10traces.png");
 	 		}
 		
 		#pizza-interacttion {
 			background-image: url("../img/storyboard/traces.png");  
 			position: absolute;
-			left: 8580px;
-			top: 625px;
+			left: 8809px;
+			top: 800px;
 			width: 129px;
 			height: 50px;
 			display: block;
 			transition: 0.25s;
 			}
 		#pizza-interacttion:hover {
-			background-image: url("../img/storyboard/traces3.png");
+			background-image: url("../img/storyboard/09traces.png");
 	 		}
 			
 			/*
@@ -355,7 +355,7 @@ nav.next-prev {
 		#waiting {
 			position: absolute;
 			left: 6770px;
-			top: 350px;
+			top: 300px;
 			}
 		#safety {
 			position: absolute;
@@ -433,7 +433,7 @@ nav.next-prev {
 			transition: 0.25s;
 			}
 		#bg6-72:hover {
-			background-image: url("../img/storyboard/traces3.png");
+			background-image: url("../img/storyboard/05traces.png");
 	 		}
 
 	#bg6-8 { /* Safety */
@@ -445,15 +445,15 @@ nav.next-prev {
 		#bg6-82 {
 			background-image: url("../img/storyboard/traces.png");  
 			position: absolute;
-			top: 590px;
-			left: 11750px;
+			top: 610px;
+			left: 11700px;
 			width: 129px;
 			height: 50px;
 			display: block;
 			transition: 0.25s;
 			}
 		#bg6-82:hover {
-			background-image: url("../img/storyboard/traces3.png");
+			background-image: url("../img/storyboard/08traces.png");
 	 		}
 		
 	#bg6-5 { /* Food Waste */
@@ -473,7 +473,7 @@ nav.next-prev {
 			transition: 0.25s;
 			}
 		#bg6-52:hover {
-			background-image: url("../img/storyboard/traces3.png");
+			background-image: url("../img/storyboard/11traces.png");
 	 		}
 
 	#bg6-15 { /* Reflections */
