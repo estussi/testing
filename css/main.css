@@ -509,13 +509,18 @@ nav.next-prev {
 		}
 	#bg5-4 {
 		position: absolute;
-		top: 500px;
-		left: -7500px;
+		top: 530px;
+		left: -9000px;
 		}
 	#bg5-5 { /* flying drone */
 		position: absolute;
 		top: 100px;
 		left: -26000px;
+		}
+	#bg5-6 {
+		position: absolute;
+		top: 500px;
+		left: -22300px;
 		}
 
 /* midground (traffic flowing left) */
@@ -541,12 +546,17 @@ nav.next-prev {
 	#bg4-3 {
 		position: absolute;
 		top: 530px;
-		left: 9500px;
+		left: 12500px;
 		}
 	#bg4-4 {
 		position: absolute;
 		top: 530px;
 		left: 145000px;
+		}
+	#bg4-7 {
+		position: absolute;
+		top: 480px;
+		left: 16000px;
 		}
 	#bg4-5 {
 		position: absolute;
@@ -558,6 +568,7 @@ nav.next-prev {
 		top: 500px;
 		left: 28400px;
 		}
+
 
 /* background (parked cars) */
 #parallax-bg3 {
@@ -582,7 +593,7 @@ nav.next-prev {
 	#bg3-3 {
 		position: absolute;
 		top: 500px;
-		left: 5300px;
+		left: 7300px;
 		}
 	#bg3-4 {
 		position: absolute;
